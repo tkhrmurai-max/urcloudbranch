@@ -6,7 +6,7 @@ export default defineConfig(({ mode }) => {
     const env = loadEnv(mode, '.', '');
     return {
       // ↓↓↓ この1行が消えていたので復活させます
-      base: '/AIchat/', 
+      base: '/urcloudaibranch/', 
       // ↑↑↑
       
       server: {
